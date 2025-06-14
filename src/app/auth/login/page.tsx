@@ -33,7 +33,7 @@ const Register = () => {
           <label className="block mb-1 font-medium">Password</label>
           <Input type="password" {...register('password')} placeholder="Enter your password" />
         </div>
-
+        <p>If you dont have a account: <a href='/auth' className='text-blue-500'>Register</a></p>
         <Button type="submit" className="w-full">
           Login
         </Button>

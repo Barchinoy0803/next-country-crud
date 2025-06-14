@@ -102,7 +102,7 @@ const Register = () => {
             placeholder="Enter your image URL"
           />
         </div>
-
+        <p>If you have a ccount: <a href='/auth' className='text-blue-500'>Register</a></p>
         <Button type="submit" className="w-full">
           Register
         </Button>
